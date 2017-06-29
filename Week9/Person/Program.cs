@@ -4,12 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Person
+namespace COMP123_S2017_Lesson8A
 {
     class Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello, World!");
+            Console.WriteLine("-------------");
+            Console.WriteLine();
+
+            Person person = new Person("Tom", 25);
+            person.Talks();
         }
     }
 }
