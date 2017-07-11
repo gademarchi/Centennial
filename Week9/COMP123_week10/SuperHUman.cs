@@ -20,6 +20,7 @@ namespace COMP123_week10
     public class SuperHUman :Human
     {
         //private fields
+        private List<Power> _powers;
 
         //private properties
 
@@ -31,6 +32,12 @@ namespace COMP123_week10
         }
 
         //public methids
+
+        //private methods
+        private void _initialize()
+        {
+            this._powers = new List<Power>();
+        }
 
 
     }
