@@ -7,5 +7,12 @@
       <FileName>Human.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="COMP123_week10.SuperHUman">
+    <Position X="4.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SuperHUman.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Tahoma" Size="8.25" />
 </ClassDiagram>
