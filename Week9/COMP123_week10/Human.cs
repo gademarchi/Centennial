@@ -3,44 +3,49 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+/*
+ * Name: Tom Tsiliopoulos
+ * Date: July 11, 2017
+ * Description: This is the abstract class Human which other subclasses will
+ * derive from.
+ * Version: 0.1 - Class created
+ */
+
+
 namespace COMP123_week10
 {
     /// <summary>
-    /// This is the human abstract class
+    /// This is the Human Abstract class
     /// </summary>
     public abstract class Human
     {
-        //public fields
+        // PRIVATE FIELDS (INSTANCE VARIABLES)
         private string _name;
 
-
-        //public properities
+        // PUBLIC PROPERTIES -----------------------------------------
         public string Name
         {
             get
             {
                 return this._name;
             }
+
             set
             {
                 this._name = value;
             }
-
         }
-        
 
-       //constructors
-       /// <summary>
-       /// This is the constructor
-       /// </summary>
+        // CONSTRUCTORS -----------------------------------------------
 
-        public Human()
+        /// <summary>
+        /// This is the constructor for the Human abstract class.
+        /// It requires one parameter - name (string).
+        /// </summary>
+        /// <param name="name"></param>
+        public Human(string name)
         {
             this.Name = name;
-
         }
-
-
-
     }
 }

@@ -4,42 +4,60 @@ using System.Linq;
 using System.Text;
 
 /*
- * Name: Gabriel De Marchi
- * Date: July 11,2017
- * Description: This is the SuperHUman sub class
- *
+ * Name: Tom Tsiliopoulos
+ * Date: July 11, 2017
+ * Description: This is the SuperHuman sub class.
+ * Version: 0.3 - Added Public AddPower Method
  */
-
 
 namespace COMP123_week10
 {
     /// <summary>
-    /// This is the superHuman sub class.
-    /// Its a inherits from the human superclass
+    /// This is the SuperHuman sub class.
+    /// It inherits from the Human Superclass.
     /// </summary>
-    public class SuperHUman :Human
+    public class SuperHuman : Human
     {
-        //private fields
+        // PRIVATE FIELDS
         private List<Power> _powers;
 
-        //private properties
-
-        //constructors
-        public SuperHUman(string name)
-            :base(name)
+        // PUBLIC PROPERTIES
+        public List<Power> Powers
         {
-
+            get
+            {
+                return this._powers; // returns a reference to the Powers List
+            }
         }
 
-        //public methids
 
-        //private methods
+        // CONSTRUCTORS
+        public SuperHuman(string name)
+            : base(name)
+        {
+            this._initialize();
+        }
+
+        // PRIVATE METHODS
+
+        /// <summary>
+        /// This method initializes and assigns default values to Class Fields
+        /// </summary>
         private void _initialize()
         {
             this._powers = new List<Power>();
         }
 
+        // PUBLIC METHODS
 
+        /// <summary>
+        /// This method adds a Power to the Power List
+        /// </summary>
+        /// <param name="name"></param>
+        /// <param name="rank"></param>
+        public void AddPower(string name, int rank)
+        {
+            this.Powers.Add(new Power(name, rank));
+        }
     }
-
 }

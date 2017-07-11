@@ -7,13 +7,6 @@
       <FileName>Human.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="COMP123_week10.SuperHUman">
-    <Position X="4.5" Y="0.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAA=</HashCode>
-      <FileName>SuperHUman.cs</FileName>
-    </TypeIdentifier>
-  </Class>
   <Class Name="COMP123_week10.Power">
     <Position X="5.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
