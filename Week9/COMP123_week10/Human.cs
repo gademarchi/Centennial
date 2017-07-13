@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 
 /*
- * Name: Gabriel De Marchi
+ * Name: Tom Tsiliopoulos
  * Date: July 11, 2017
  * Description: This is the Abstract Human class
- * Version: 0.1 - Created the Abstract Human Class
+ * Version: 0.2 - Added Abstract method DisplaySkills
  */
 
 namespace COMP123_week10
@@ -50,6 +50,9 @@ namespace COMP123_week10
         // PRIVATE METHODS
 
         // PUBLIC METHODS
+
+        // PUBLIC ABSTRACT METHODS
+        public abstract void DisplaySkills();
 
     }
 }
