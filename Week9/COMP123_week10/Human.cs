@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 /*
- * Name: Tom Tsiliopoulos
+ * Name: Gabriel De Marchi
  * Date: July 11, 2017
  * Description: This is the Abstract Human class
  * Version: 0.1 - Created the Abstract Human Class

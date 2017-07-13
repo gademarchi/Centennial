@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
- * Name: Tom Tsiliopoulos
+ * Name: Gabriel De Marchi
  * Date: July 11, 2017
  * Description: Demo for Lesson 9
  * Version: 0.4 - Added another Power to the SuperHuman object

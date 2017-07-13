@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 /*
- * Name: Tom Tsiliopoulos
+ * Name: Gabriel De Marchi
  * Date: July 11, 2017
  * Description: Demo for Lesson 9
  * Version: 0.2 - Added a constructor
