@@ -6,15 +6,15 @@ using System.Text;
 /*
  * Name: Tom Tsiliopoulos
  * Date: July 11, 2017
- * Description: This is the new Power data type
- * Version: 0.2 - Add a custom constructor to assign Name and Rank
+ * Description: Demo for Lesson 9
+ * Version: 0.2 - Added a constructor
  */
 
 namespace COMP123_week10
 {
 
     /// <summary>
-    /// The Power class contains the data and structure of the each Super Power.
+    /// This is the Power class which will be used as a Data type
     /// </summary>
     public class Power
     {
@@ -22,11 +22,11 @@ namespace COMP123_week10
         public string Name { get; set; }
         public int Rank { get; set; }
 
-        // CONSTRUCTORS -----------------------------------------
+        // CONSTRUCTORS -----------------------------------
 
         /// <summary>
-        /// This is the Power construtor.
-        /// Takes two parameters - name (string) - rank (int)
+        /// This is the main constructor for the Power class.
+        /// It takes two arguments - name (string) - rank (int)
         /// </summary>
         /// <param name="name"></param>
         /// <param name="rank"></param>
