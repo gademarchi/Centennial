@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 /*
- * Name: Tom Tsiliopoulos
+ * Name: Gabriel De Marchi
  * Date: July 13, 2017
  * Description: This is the SuperHero class which inherits from the SuperHuman class
  * Version: 0.1 - implemented the ToString method of the superhuman class

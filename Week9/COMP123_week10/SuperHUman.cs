@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 /*
- * Name: Tom Tsiliopoulos
+ * Name: Gabriel De Marchi
  * Date: July 11, 2017
  * Description: This is the SuperHuman class that extends the Human abstract class
  * Version: 0.7 - Added the DisplaySkills stub method to satisfy the Human super class requirements
