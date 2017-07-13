@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 /*
  * Name: Tom Tsiliopoulos
  * Date: July 11, 2017
- * Description: This is the driver class for my project
- * Version: 0.1 - Instantiated an object of type SuperHuman
+ * Description: Demo for Lesson 9
+ * Version: 0.4 - Added another Power to the SuperHuman object
+ *              - Also displayed all the powers in the Powers List
  */
 
 namespace COMP123_week10
@@ -18,7 +19,9 @@ namespace COMP123_week10
         static void Main(string[] args)
         {
             SuperHuman superHuman = new SuperHuman("Super Dude");
-            superHuman.Powers.Add(new Power("Teleportation", 50));
+            superHuman.AddPower("Spider Climbing", 50);
+            superHuman.AddPower("Webcasting", 40);
+            superHuman.DisplayPowers();
         }
     }
 }
