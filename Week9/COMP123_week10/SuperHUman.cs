@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 
 /*
- * Name: Gabriel De Marchi
+ * Name: Tom Tsiliopoulos
  * Date: July 11, 2017
  * Description: This is the SuperHuman class that extends the Human abstract class
- * Version: 0.5 - Added the overriden ToString method
+ * Version: 0.7 - Added the DisplaySkills stub method to satisfy the Human super class requirements
  */
 
 namespace COMP123_week10
@@ -89,10 +89,19 @@ namespace COMP123_week10
             outputString += "===========================================================\n";
             foreach (Power power in this.Powers)
             {
-                outputString += "Power: " + power.Name + "Rank: " + power.Rank + "\n";
+                outputString += "Power: " + power.Name + " Rank: " + power.Rank + "\n";
             }
             outputString += "===========================================================\n";
             return outputString;
+        }
+
+        /// <summary>
+        /// This method overrides the Human abstract superclass DisplaySkills method.
+        /// This method will display a list of Skills to the Console.
+        /// </summary>
+        public override void DisplaySkills()
+        {
+            Console.WriteLine("Not Implemented!");
         }
     }
 }
