@@ -15,10 +15,10 @@ namespace COMP123_week10
     /// <summary>
     /// This is the SuperHero class
     /// </summary>
-    public class SuperVillain : SuperHuman, IHasKarma
+    public class SuperVillain : SuperHuman, IHasDarma
     {
         // PRIVATE INSTANCE VARIABLES
-        private int _karma;
+        private int _darma;
 
         // PUBLIC PROPERTIES
         public int Darma
