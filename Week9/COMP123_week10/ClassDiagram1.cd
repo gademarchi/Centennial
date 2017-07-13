@@ -14,5 +14,12 @@
       <FileName>Power.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="COMP123_week10.SuperHuman" Collapsed="true">
+    <Position X="7.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAEAAAAIAAAAAAACAABAAAIAABAAAA=</HashCode>
+      <FileName>SuperHUman.cs</FileName>
+    </TypeIdentifier>
+  </Class>
   <Font Name="Tahoma" Size="8.25" />
 </ClassDiagram>

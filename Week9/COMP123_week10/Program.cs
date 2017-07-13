@@ -13,14 +13,4 @@ using System.Threading.Tasks;
 
 namespace COMP123_week10
 {
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            SuperHuman superHuman = new SuperHuman("Super Dude");
-            superHuman.AddPower("Spider Climbing", 50);
-            superHuman.AddPower("Webcasting", 40);
-            Console.WriteLine(superHuman.ToString());
-        }
-    }
 }
