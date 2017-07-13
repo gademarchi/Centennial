@@ -42,8 +42,9 @@ namespace COMP123_week10
         /// </summary>
         /// <param name="name"></param>
         /// <param name="karma"></param>
-        public SuperHero(string name, int karma)
-            : base(name)
+        /// <param name="category"></param>
+        public SuperHero(string name, int karma, string category)
+            : base(name, category)
         {
             this.Karma = karma;
         }

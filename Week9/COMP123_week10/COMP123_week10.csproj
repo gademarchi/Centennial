@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Human.cs" />
-    <Compile Include="IHasDarma.cs" />
+    <Compile Include="IHasMalice.cs" />
     <Compile Include="IHasKarma.cs" />
     <Compile Include="Power.cs" />
     <Compile Include="Program.cs" />

@@ -19,6 +19,7 @@ namespace COMP123_week10
     {
         // PRIVATE INSTANCE VARIABLES
         private List<Power> _powers;
+        
 
         // PUBLIC PROPERTIES
         public List<Power> Powers
@@ -29,6 +30,9 @@ namespace COMP123_week10
             }
         }
 
+        //category : villain or hero
+      
+
         // CONSTRUCTORS
 
         /// <summary>
@@ -36,11 +40,14 @@ namespace COMP123_week10
         /// It takes one parameter - name (string)
         /// </summary>
         /// <param name="name"></param>
-        public SuperHuman(string name)
-            : base(name)
+        public SuperHuman(string name, string category)
+            : base(name, category)
         {
             this._initialize();
         }
+
+
+     
 
         // PRIVATE METHODS
 
@@ -50,7 +57,9 @@ namespace COMP123_week10
         private void _initialize()
         {
             this._powers = new List<Power>(); // creates an empty list
+            
         }
+
 
         // PUBLIC METHODS
 
@@ -72,7 +81,7 @@ namespace COMP123_week10
         {
             foreach (Power power in this.Powers)
             {
-                Console.WriteLine("Power: " + power.Name + " Rank: " + power.Rank);
+                Console.WriteLine("Power: " + power.Name + " Rank: " + power.Rank );
             }
         }
 
@@ -84,14 +93,14 @@ namespace COMP123_week10
         public override string ToString()
         {
             string outputString = "";
-            outputString += "===========================================================\n";
-            outputString += "Super Human Name: " + this.Name + "\n";
-            outputString += "===========================================================\n";
+            outputString += "===================================================================\n";
+            outputString += "Super "+ this.Category + " Name: " + this.Name + "\n";
+            outputString += "===================================================================\n";
             foreach (Power power in this.Powers)
             {
-                outputString += "Power: " + power.Name + " Rank: " + power.Rank + "\n";
+                outputString += "Power: " + power.Name + "  |  Rank: " + power.Rank + "\n";
             }
-            outputString += "===========================================================\n";
+            outputString += "===================================================================\n";
             return outputString;
         }
 

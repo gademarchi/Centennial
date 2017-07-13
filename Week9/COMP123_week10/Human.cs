@@ -19,6 +19,7 @@ namespace COMP123_week10
     {
         // PRIVATE INSTANCE VARIABLES (FIELDS)
         private string _name;
+        private string _category;
 
         // PUBLIC PROPERTIES
         public string Name
@@ -35,6 +36,20 @@ namespace COMP123_week10
             }
         }
 
+        public string Category
+        {
+
+            get
+            {
+                return this._category;
+            }
+
+            set
+            {
+                this._category = value;
+            }
+        }
+
         // CONSTRUCTORS ---------------------------------------------
 
         /// <summary>
@@ -42,9 +57,10 @@ namespace COMP123_week10
         /// It takes one parameter - name (string)
         /// </summary>
         /// <param name="name"></param>
-        public Human(string name)
+        public Human(string name, string category)
         {
             this.Name = name;
+            this.Category = category;
         }
 
         // PRIVATE METHODS

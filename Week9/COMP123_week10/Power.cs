@@ -21,6 +21,7 @@ namespace COMP123_week10
         // PUBLIC PROPERTIES
         public string Name { get; set; }
         public int Rank { get; set; }
+       
 
         // CONSTRUCTORS -----------------------------------
 
@@ -34,6 +35,7 @@ namespace COMP123_week10
         {
             this.Name = name;
             this.Rank = rank;
+            
         }
     }
 }

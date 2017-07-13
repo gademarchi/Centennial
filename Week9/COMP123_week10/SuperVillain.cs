@@ -15,22 +15,22 @@ namespace COMP123_week10
     /// <summary>
     /// This is the SuperHero class
     /// </summary>
-    public class SuperVillain : SuperHuman, IHasDarma
+    public class SuperVillain : SuperHuman, IHasMalice
     {
         // PRIVATE INSTANCE VARIABLES
-        private int _darma;
+        private int _malice;
 
         // PUBLIC PROPERTIES
-        public int Darma
+        public int Malice
         {
             get
             {
-                return this._darma;
+                return this._malice;
             }
 
             set
             {
-                this._darma = value;
+                this._malice = value;
             }
         }
 
@@ -38,14 +38,15 @@ namespace COMP123_week10
 
         /// <summary>
         /// This is the main constructor for the SuperVillain class
-        /// It takes two arguments - name (string) - darma (int)
+        /// It takes two arguments - name (string) - Malice (int)
         /// </summary>
         /// <param name="name"></param>
-        /// <param name="darma"></param>
-        public SuperVillain(string name, int darma)
-            : base(name)
+        /// <param name="malice"></param>
+        /// <param name="category"></param>
+        public SuperVillain(string name, int malice, string category)
+            : base(name, category)
         {
-            this.Darma = darma;
+            this.Malice = malice;
         }
 
         // PRIVATE METHODS
