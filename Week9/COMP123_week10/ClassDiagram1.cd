@@ -21,12 +21,14 @@
       <FileName>SuperHUman.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="COMP123_week10.SuperHero">
+  <Class Name="COMP123_week10.SuperVillain">
     <Position X="8" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>SuperHero.cs</FileName>
+      <HashCode>IAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SuperVillain.cs</FileName>
+      <NewMemberFileName>SuperHero.cs</NewMemberFileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Font Name="Tahoma" Size="8.25" />
 </ClassDiagram>
