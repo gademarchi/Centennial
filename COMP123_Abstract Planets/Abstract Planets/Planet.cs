@@ -111,6 +111,11 @@ namespace Abstract_Planets
             this.Mass = mass;
         }
 
-        
+        public override string ToString()
+        {
+            return base.ToString();
+        }
+
+
     }
 }
