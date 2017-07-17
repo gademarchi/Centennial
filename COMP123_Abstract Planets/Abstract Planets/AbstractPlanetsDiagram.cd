@@ -28,7 +28,7 @@
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Interface Name="Abstract_Planets.IHasRings" Collapsed="true">
+  <Interface Name="Abstract_Planets.IHasRings">
     <Position X="6.75" Y="2.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
@@ -43,7 +43,7 @@
     </TypeIdentifier>
   </Interface>
   <Interface Name="Abstract_Planets.IHasMoons">
-    <Position X="5.25" Y="2.5" Width="1.5" />
+    <Position X="4.5" Y="2.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>IHasMoons.cs</FileName>

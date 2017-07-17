@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
+/*
+ * Name: Gabriel De Marchi
+ * Date: July 17, 2017
+ * Version: 0.1 - create GiantPlanet
+ */
 namespace Abstract_Planets
 {
      class GiantPlanet : Planet
