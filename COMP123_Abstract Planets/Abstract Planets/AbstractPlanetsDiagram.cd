@@ -8,16 +8,16 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Abstract_Planets.GiantPlanet">
-    <Position X="6.25" Y="1" Width="1.5" />
+    <Position X="6.25" Y="1" Width="2" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAABAAAAAQAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>GiantPlanet.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Abstract_Planets.TerrestrialPlanet">
-    <Position X="5" Y="3" Width="1.5" />
+    <Position X="6.5" Y="3.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>TerrestrialPlanet.cs</FileName>
     </TypeIdentifier>
   </Class>

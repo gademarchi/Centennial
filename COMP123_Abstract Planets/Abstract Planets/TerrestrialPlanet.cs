@@ -7,5 +7,11 @@ namespace Abstract_Planets
 {
     public class TerrestrialPlanet
     {
+        //Private Instances Variables
+        private bool _oxygen;
+
+
+
+
     }
 }
