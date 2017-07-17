@@ -31,20 +31,12 @@ namespace Abstract_Planets
             {
                 return this._diameter;
             }
-            set
-            {
-                this._diameter = value;
-            }
         }
         public double Mass
         {
             get
             {
                 return this._mass;
-            }
-            set
-            {
-                this._mass = value;
             }
         }
         public int MoonCount
@@ -63,10 +55,6 @@ namespace Abstract_Planets
             get
             {
                 return this._name;
-            }
-            set
-            {
-                this._name = value;
             }
         }
         public double OrbitalPeriod
@@ -106,14 +94,14 @@ namespace Abstract_Planets
         //Constructor
         public Planet(string name, double diameter, double mass)
         {
-            this.Name = name;
-            this.Diameter = diameter;
-            this.Mass = mass;
+            this._name = name;
+            this._diameter = diameter;
+            this._mass = mass;
         }
 
         public override string ToString()
         {
-            return base.ToString();
+            return this.Name + " has the diameter of " + this.Diameter + " kilometers and a mass of" + this.Mass + "tonnes.";
         }
 
 
