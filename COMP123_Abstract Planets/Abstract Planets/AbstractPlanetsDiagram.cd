@@ -42,5 +42,12 @@
       <FileName>IHabitable.cs</FileName>
     </TypeIdentifier>
   </Interface>
+  <Interface Name="Abstract_Planets.IHasMoons">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IHasMoons.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Tahoma" Size="8.25" />
 </ClassDiagram>
