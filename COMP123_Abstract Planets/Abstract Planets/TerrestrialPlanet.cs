@@ -11,7 +11,7 @@ using System.Text;
 
 namespace Abstract_Planets
 {
-    class TerrestrialPlanet : Planet
+    class TerrestrialPlanet : Planet, IHasMoons, IHabitable
     {
         //Private Instances Variables
         private bool _oxygen;
