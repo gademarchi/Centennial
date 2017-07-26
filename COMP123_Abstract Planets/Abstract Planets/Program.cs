@@ -19,6 +19,23 @@ namespace Abstract_Planets
             TerrestrialPlanet myTerrestrialPlanet = new TerrestrialPlanet("Earth", 12104, 5.972, true);
             Console.WriteLine(myTerrestrialPlanet.ToString()); // displays details of myTerrestrialPlanet
 
+            WaitForAnyKey();
+        }
+
+         static void WaitForAnyKey()
+        {
+            Console.WriteLine("Press any key to close.");
+
+            if (Console.ReadKey(true).Key != ConsoleKey.Escape)
+            {
+                Environment.Exit(0);
+            }
+
+
         }
     }
 }
+
+
+    
+

@@ -101,6 +101,7 @@ namespace Abstract_Planets
 
         public override string ToString()
         {
+
             return this.Name + " has the diameter of " + this.Diameter + " kilometers and a mass of " + this.Mass + " tonnes.\n ";
         }
 
