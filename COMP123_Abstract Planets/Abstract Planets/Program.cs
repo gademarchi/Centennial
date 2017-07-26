@@ -4,6 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+ * Name: Gabriel De Marchi
+ * Date: July 26, 2017 
+ * Version: 0.2 - create WaitForAnyKey() method.
+ */
+
+
 namespace Abstract_Planets
 {
     class Program
@@ -24,12 +31,8 @@ namespace Abstract_Planets
 
          static void WaitForAnyKey()
         {
-            Console.WriteLine("Press any key to close.");
-
-            if (Console.ReadKey(true).Key != ConsoleKey.Escape)
-            {
-                Environment.Exit(0);
-            }
+            Console.Write("Press <Enter> to exit... ");
+            while (Console.ReadKey().Key != ConsoleKey.Enter) { }
 
 
         }
