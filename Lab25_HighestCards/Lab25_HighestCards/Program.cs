@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Lab_25___Highest_Cards
+namespace Lab25_HighestCards
 {
     class Program
     {

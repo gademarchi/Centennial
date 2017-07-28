@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Lab 25 - Highest Cards")]
+[assembly: AssemblyTitle("Lab25_HighestCards")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Lab 25 - Highest Cards")]
+[assembly: AssemblyProduct("Lab25_HighestCards")]
 [assembly: AssemblyCopyright("Copyright ©  2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("383cc215-be36-4be1-866e-3ee9977e4aa5")]
+[assembly: Guid("2efb9f35-b357-4dae-9274-70f3d5ad340a")]
 
 // Version information for an assembly consists of the following four values:
 //
