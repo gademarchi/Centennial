@@ -22,7 +22,7 @@ namespace COMP123_S2017_Lesson12A2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Calculator());
+            Application.Run(new CalculatorForm());
         }
     }
 }

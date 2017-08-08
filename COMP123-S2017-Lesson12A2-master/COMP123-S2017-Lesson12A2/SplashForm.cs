@@ -25,8 +25,17 @@ namespace COMP123_S2017_Lesson12A2
             InitializeComponent();
         }
 
-        private void SplashForm_Load(object sender, EventArgs e)
+        /// <summary>
+        /// this is the event handler
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void SplashFormTimer_Tick(object sender, EventArgs e)
         {
+            CalculatorForm calculatorForm = new CalculatorForm();
+            calculatorForm.Show();
+            this.Hide();
+            SplashFormTimer.Enabled = false;
 
         }
     }

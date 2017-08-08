@@ -16,9 +16,9 @@ using System.Windows.Forms;
 
 namespace COMP123_S2017_Lesson12A2
 {
-    public partial class Calculator : Form
+    public partial class CalculatorForm : Form
     {
-        public Calculator()
+        public CalculatorForm()
         {
             InitializeComponent();
         }
