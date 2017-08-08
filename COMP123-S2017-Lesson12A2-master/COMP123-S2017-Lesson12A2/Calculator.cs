@@ -8,18 +8,17 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-/*
- * Name: Gabriel De Marchi
- * Description: Create form1 BMI Calculator.
- * GitHub: https://github.com/gademarchi/Centennial/tree/master/Assignment_BMICalculator
+/* Name: Tom Tsiliopoulos
+ * Date: August 3, 2017
+ * Description: A calculator app with Windows Forms
+ * Version: 0.1
  */
 
-
-namespace Assignment_BMICalculator
+namespace COMP123_S2017_Lesson12A2
 {
-    public partial class Form1 : Form
+    public partial class Calculator : Form
     {
-        public Form1()
+        public Calculator()
         {
             InitializeComponent();
         }
