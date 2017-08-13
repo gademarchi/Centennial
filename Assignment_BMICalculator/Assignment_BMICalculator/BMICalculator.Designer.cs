@@ -38,7 +38,7 @@
             this.CalculateBMIButton = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.txtResult = new System.Windows.Forms.TextBox();
+            this.txtBMI = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,7 +57,7 @@
             this.tableLayoutPanel1.Controls.Add(this.CalculateBMIButton, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.button2, 1, 3);
             this.tableLayoutPanel1.Controls.Add(this.label3, 0, 4);
-            this.tableLayoutPanel1.Controls.Add(this.txtResult, 1, 4);
+            this.tableLayoutPanel1.Controls.Add(this.txtBMI, 1, 4);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 5;
@@ -78,7 +78,6 @@
             this.rdImperial.Name = "rdImperial";
             this.rdImperial.Size = new System.Drawing.Size(150, 35);
             this.rdImperial.TabIndex = 0;
-            this.rdImperial.TabStop = true;
             this.rdImperial.Text = "Imperial Units";
             this.rdImperial.UseVisualStyleBackColor = true;
             // 
@@ -174,15 +173,15 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "Your BMI:";
             // 
-            // txtResult
+            // txtBMI
             // 
-            this.txtResult.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txtResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtResult.Location = new System.Drawing.Point(161, 358);
-            this.txtResult.Name = "txtResult";
-            this.txtResult.ReadOnly = true;
-            this.txtResult.Size = new System.Drawing.Size(150, 38);
-            this.txtResult.TabIndex = 9;
+            this.txtBMI.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtBMI.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtBMI.Location = new System.Drawing.Point(161, 358);
+            this.txtBMI.Name = "txtBMI";
+            this.txtBMI.ReadOnly = true;
+            this.txtBMI.Size = new System.Drawing.Size(150, 38);
+            this.txtBMI.TabIndex = 9;
             // 
             // BMICalculator
             // 
@@ -213,7 +212,7 @@
         private System.Windows.Forms.Button CalculateBMIButton;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txtResult;
+        private System.Windows.Forms.TextBox txtBMI;
     }
 }
 
