@@ -1,6 +1,6 @@
 ﻿namespace Assignment_BMICalculator
 {
-    partial class Form1
+    partial class BMICalculator
     {
         /// <summary>
         /// Required designer variable.
@@ -86,6 +86,7 @@
             // 
             this.rdMetric.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.rdMetric.AutoSize = true;
+            this.rdMetric.Checked = true;
             this.rdMetric.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rdMetric.Location = new System.Drawing.Point(161, 23);
             this.rdMetric.Name = "rdMetric";
@@ -147,6 +148,7 @@
             this.CalculateBMIButton.TabIndex = 6;
             this.CalculateBMIButton.Text = "C&alculate BMI";
             this.CalculateBMIButton.UseVisualStyleBackColor = true;
+            this.CalculateBMIButton.Click += new System.EventHandler(this.CalculateBMIButton_Click);
             // 
             // button2
             // 
@@ -182,7 +184,7 @@
             this.txtResult.Size = new System.Drawing.Size(150, 38);
             this.txtResult.TabIndex = 9;
             // 
-            // Form1
+            // BMICalculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -190,7 +192,7 @@
             this.Controls.Add(this.tableLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
-            this.Name = "Form1";
+            this.Name = "BMICalculator";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "BMI Calculator";
             this.tableLayoutPanel1.ResumeLayout(false);
