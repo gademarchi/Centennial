@@ -9,8 +9,10 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 /*
- * Name: Gabriel De Marchi
+ * Name: Gabriel De Marchi - 300930749
+ * Date:13/08/2017
  * Description: Create form1 BMI Calculator.
+ * Version: 0.1 - Create Form.
  * GitHub: https://github.com/gademarchi/Centennial/tree/master/Assignment_BMICalculator
  */
 

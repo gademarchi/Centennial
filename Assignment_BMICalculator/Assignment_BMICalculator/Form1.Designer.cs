@@ -35,7 +35,7 @@
             this.txtHeight = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.btnCalculate = new System.Windows.Forms.Button();
+            this.CalculateBMIButton = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.txtResult = new System.Windows.Forms.TextBox();
@@ -54,7 +54,7 @@
             this.tableLayoutPanel1.Controls.Add(this.txtHeight, 0, 2);
             this.tableLayoutPanel1.Controls.Add(this.label1, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.label2, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.btnCalculate, 0, 3);
+            this.tableLayoutPanel1.Controls.Add(this.CalculateBMIButton, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.button2, 1, 3);
             this.tableLayoutPanel1.Controls.Add(this.label3, 0, 4);
             this.tableLayoutPanel1.Controls.Add(this.txtResult, 1, 4);
@@ -135,18 +135,18 @@
             this.label2.TabIndex = 5;
             this.label2.Text = "My Weight";
             // 
-            // btnCalculate
+            // CalculateBMIButton
             // 
-            this.btnCalculate.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.CalculateBMIButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnCalculate.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalculate.Location = new System.Drawing.Point(4, 184);
-            this.btnCalculate.Name = "btnCalculate";
-            this.btnCalculate.Size = new System.Drawing.Size(150, 113);
-            this.btnCalculate.TabIndex = 6;
-            this.btnCalculate.Text = "C&alculate BMI";
-            this.btnCalculate.UseVisualStyleBackColor = true;
+            this.CalculateBMIButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CalculateBMIButton.Location = new System.Drawing.Point(4, 184);
+            this.CalculateBMIButton.Name = "CalculateBMIButton";
+            this.CalculateBMIButton.Size = new System.Drawing.Size(150, 113);
+            this.CalculateBMIButton.TabIndex = 6;
+            this.CalculateBMIButton.Text = "C&alculate BMI";
+            this.CalculateBMIButton.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
@@ -208,7 +208,7 @@
         private System.Windows.Forms.TextBox txtHeight;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button btnCalculate;
+        private System.Windows.Forms.Button CalculateBMIButton;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtResult;
