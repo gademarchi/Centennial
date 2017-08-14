@@ -38,10 +38,10 @@
             this.label2 = new System.Windows.Forms.Label();
             this.btnClear = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.lblResult = new System.Windows.Forms.Label();
             this.txtBMI = new System.Windows.Forms.TextBox();
             this.CalculateBMIButton = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.txtResult = new System.Windows.Forms.TextBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,10 +62,10 @@
             this.tableLayoutPanel1.Controls.Add(this.label2, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.btnClear, 1, 3);
             this.tableLayoutPanel1.Controls.Add(this.label3, 0, 4);
-            this.tableLayoutPanel1.Controls.Add(this.lblResult, 1, 5);
             this.tableLayoutPanel1.Controls.Add(this.txtBMI, 1, 4);
             this.tableLayoutPanel1.Controls.Add(this.CalculateBMIButton, 0, 3);
             this.tableLayoutPanel1.Controls.Add(this.linkLabel1, 0, 5);
+            this.tableLayoutPanel1.Controls.Add(this.txtResult, 1, 5);
             this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 6;
@@ -184,18 +184,6 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "Your BMI:";
             // 
-            // lblResult
-            // 
-            this.lblResult.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.lblResult.AutoSize = true;
-            this.lblResult.BackColor = System.Drawing.Color.Transparent;
-            this.lblResult.Font = new System.Drawing.Font("Lucida Sans Unicode", 20F);
-            this.lblResult.ForeColor = System.Drawing.Color.White;
-            this.lblResult.Location = new System.Drawing.Point(234, 382);
-            this.lblResult.Name = "lblResult";
-            this.lblResult.Size = new System.Drawing.Size(0, 34);
-            this.lblResult.TabIndex = 10;
-            // 
             // txtBMI
             // 
             this.txtBMI.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -229,12 +217,25 @@
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.BackColor = System.Drawing.Color.Transparent;
             this.linkLabel1.Font = new System.Drawing.Font("Lucida Sans Unicode", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.linkLabel1.LinkColor = System.Drawing.Color.White;
             this.linkLabel1.Location = new System.Drawing.Point(3, 439);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(138, 16);
             this.linkLabel1.TabIndex = 11;
             this.linkLabel1.TabStop = true;
+            this.linkLabel1.Tag = "https://github.com/gademarchi/Centennial/tree/master/Assignment_BMICalculator";
             this.linkLabel1.Text = "by Gabriel De Marchi";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
+            // txtResult
+            // 
+            this.txtResult.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtResult.Font = new System.Drawing.Font("Lucida Sans Unicode", 20F);
+            this.txtResult.Location = new System.Drawing.Point(157, 349);
+            this.txtResult.Multiline = true;
+            this.txtResult.Name = "txtResult";
+            this.txtResult.Size = new System.Drawing.Size(155, 99);
+            this.txtResult.TabIndex = 12;
             // 
             // BMICalculator
             // 
@@ -266,8 +267,8 @@
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtBMI;
-        private System.Windows.Forms.Label lblResult;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.TextBox txtResult;
     }
 }
 

@@ -27,6 +27,7 @@ namespace Assignment_BMICalculator
         }
 
         double m, kg, lb, inch, bmi;
+        string target = "https://github.com/gademarchi/Centennial/tree/master/Assignment_BMICalculator";
 
         private void rdImperial_CheckedChanged(object sender, EventArgs e)
         {
@@ -46,6 +47,11 @@ namespace Assignment_BMICalculator
             txtWeight.Text = "";
         }
 
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+           System.Diagnostics.Process.Start(target);
+        }
+
         private void rdMetric_CheckedChanged(object sender, EventArgs e)
         {
             txtHeight.Text = "Meters";
@@ -57,7 +63,7 @@ namespace Assignment_BMICalculator
             txtHeight.Clear();
             txtWeight.Clear();
             txtBMI.Clear();
-            lblResult.Text = " ";
+            txtResult.Text = " ";
             txtBMI.BackColor = Color.White;
 
         }
@@ -82,24 +88,28 @@ namespace Assignment_BMICalculator
                 {
                     result = "Underweight";
                     txtBMI.BackColor = Color.Red;
+                    txtResult.BackColor = Color.Red;
                 }
 
                 else if(bmi <= 24.9)
                 {
                     result = "Normal weight";
                     txtBMI.BackColor = Color.Green;
+                    txtResult.BackColor = Color.Green;
                 }
 
                 else if(bmi <= 29.9)
                 {
                     result = "Overweight";
                     txtBMI.BackColor = Color.Orange;
+                    txtResult.BackColor = Color.Orange;
                 }
 
                 else if (bmi > 30)
                 {
                     result = "Obese";
                     txtBMI.BackColor = Color.Red;
+                    txtResult.BackColor = Color.Red;
                 }
                 else
                 {
@@ -107,7 +117,7 @@ namespace Assignment_BMICalculator
                 }
 
                 txtBMI.Text = bmi.ToString("#.##");
-                lblResult.Text = result;
+                txtResult.Text = result;
 
             }
             else if(rdMetric.Checked == true)
@@ -129,24 +139,28 @@ namespace Assignment_BMICalculator
                 {
                     result = "Underweight";
                     txtBMI.BackColor = Color.Red;
+                    txtResult.BackColor = Color.Red;
                 }
 
                 else if (bmi <= 24.9)
                 {
                     result = "Normal weight";
                     txtBMI.BackColor = Color.Green;
+                    txtResult.BackColor = Color.Green;
                 }
 
                 else if (bmi <= 29.9)
                 {
                     result = "Overweight";
                     txtBMI.BackColor = Color.Orange;
+                    txtResult.BackColor = Color.Orange;
                 }
 
                 else if (bmi > 30)
                 {
                     result = "Obese";
                     txtBMI.BackColor = Color.Red;
+                    txtResult.BackColor = Color.Red;
                 }
                 else
                 {
@@ -154,7 +168,7 @@ namespace Assignment_BMICalculator
                 }
 
                 txtBMI.Text = bmi.ToString("#.##");
-                lblResult.Text = result;
+                txtResult.Text = result;
 
             }
 
