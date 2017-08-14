@@ -30,16 +30,26 @@ namespace Assignment_BMICalculator
 
         private void rdImperial_CheckedChanged(object sender, EventArgs e)
         {
-            txtHeight.Tag = "Inches";
-            txtWeight.Tag = "Pounds";
+            txtHeight.Text = "Inches";
+            txtWeight.Text = "Pounds";
 
         }
 
+        private void txtHeight_MouseClick(object sender, MouseEventArgs e)
+        {
+            txtHeight.Text = "";
+
+         }
+
+        private void txtWeight_MouseClick(object sender, MouseEventArgs e)
+        {
+            txtWeight.Text = "";
+        }
 
         private void rdMetric_CheckedChanged(object sender, EventArgs e)
         {
-            txtHeight.Tag = "Meters";
-            txtWeight.Tag = "Kg";
+            txtHeight.Text = "Meters";
+            txtWeight.Text = "Kg";
         }
 
         private void btnClear_Click(object sender, EventArgs e)
@@ -47,6 +57,7 @@ namespace Assignment_BMICalculator
             txtHeight.Clear();
             txtWeight.Clear();
             txtBMI.Clear();
+            lblResult.Text = " ";
 
         }
 
