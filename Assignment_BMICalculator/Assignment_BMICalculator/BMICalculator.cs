@@ -12,7 +12,7 @@ using System.Windows.Forms;
  * Name: Gabriel De Marchi - 300930749
  * Date:13/08/2017
  * Description: Create form1 BMI Calculator.
- * Version: 0.4 - add image in the background.
+ * Version: 0.5 - add a label for show the result.
  * GitHub: https://github.com/gademarchi/Centennial/tree/master/Assignment_BMICalculator
  */
 
@@ -34,7 +34,6 @@ namespace Assignment_BMICalculator
             txtWeight.Tag = "Pounds";
 
         }
-
 
 
         private void rdMetric_CheckedChanged(object sender, EventArgs e)
@@ -92,6 +91,7 @@ namespace Assignment_BMICalculator
                 }
 
                 txtBMI.Text = bmi.ToString("#.##");
+                lblResult.Text = result;
 
             }
             else if(rdMetric.Checked == true)
@@ -133,7 +133,8 @@ namespace Assignment_BMICalculator
                     MessageBox.Show("ERROR");
                 }
 
-                txtBMI.Text = bmi.ToString("#.##" + result);
+                txtBMI.Text = bmi.ToString("#.##");
+                lblResult.Text = result;
 
             }
 
