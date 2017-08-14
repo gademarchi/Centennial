@@ -98,14 +98,12 @@
             this.rdMetric.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.rdMetric.AutoSize = true;
             this.rdMetric.BackColor = System.Drawing.Color.Transparent;
-            this.rdMetric.Checked = true;
             this.rdMetric.Font = new System.Drawing.Font("Lucida Sans Unicode", 20F);
             this.rdMetric.ForeColor = System.Drawing.Color.White;
             this.rdMetric.Location = new System.Drawing.Point(157, 13);
             this.rdMetric.Name = "rdMetric";
             this.rdMetric.Size = new System.Drawing.Size(155, 38);
             this.rdMetric.TabIndex = 1;
-            this.rdMetric.TabStop = true;
             this.rdMetric.Text = "Metric Units";
             this.rdMetric.UseVisualStyleBackColor = false;
             this.rdMetric.CheckedChanged += new System.EventHandler(this.rdMetric_CheckedChanged);
@@ -191,10 +189,11 @@
             this.lblResult.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lblResult.AutoSize = true;
             this.lblResult.BackColor = System.Drawing.Color.Transparent;
-            this.lblResult.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblResult.Location = new System.Drawing.Point(234, 383);
+            this.lblResult.Font = new System.Drawing.Font("Lucida Sans Unicode", 20F);
+            this.lblResult.ForeColor = System.Drawing.Color.White;
+            this.lblResult.Location = new System.Drawing.Point(234, 382);
             this.lblResult.Name = "lblResult";
-            this.lblResult.Size = new System.Drawing.Size(0, 31);
+            this.lblResult.Size = new System.Drawing.Size(0, 34);
             this.lblResult.TabIndex = 10;
             // 
             // txtBMI

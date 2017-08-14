@@ -12,7 +12,7 @@ using System.Windows.Forms;
  * Name: Gabriel De Marchi - 300930749
  * Date:13/08/2017
  * Description: Create form1 BMI Calculator.
- * Version: 0.5 - add a label for show the result.
+ * Version: 0.6 - add a color in the label for show the result.
  * GitHub: https://github.com/gademarchi/Centennial/tree/master/Assignment_BMICalculator
  */
 
@@ -58,6 +58,7 @@ namespace Assignment_BMICalculator
             txtWeight.Clear();
             txtBMI.Clear();
             lblResult.Text = " ";
+            txtBMI.BackColor = Color.White;
 
         }
 
@@ -80,21 +81,25 @@ namespace Assignment_BMICalculator
                 if(bmi < 18.5)
                 {
                     result = "Underweight";
+                    txtBMI.BackColor = Color.Red;
                 }
 
                 else if(bmi <= 24.9)
                 {
                     result = "Normal weight";
+                    txtBMI.BackColor = Color.Green;
                 }
 
                 else if(bmi <= 29.9)
                 {
                     result = "Overweight";
+                    txtBMI.BackColor = Color.Orange;
                 }
 
                 else if (bmi > 30)
                 {
                     result = "Obese";
+                    txtBMI.BackColor = Color.Red;
                 }
                 else
                 {
@@ -123,21 +128,25 @@ namespace Assignment_BMICalculator
                 if (bmi < 18.5)
                 {
                     result = "Underweight";
+                    txtBMI.BackColor = Color.Red;
                 }
 
                 else if (bmi <= 24.9)
                 {
                     result = "Normal weight";
+                    txtBMI.BackColor = Color.Green;
                 }
 
                 else if (bmi <= 29.9)
                 {
                     result = "Overweight";
+                    txtBMI.BackColor = Color.Orange;
                 }
 
                 else if (bmi > 30)
                 {
                     result = "Obese";
+                    txtBMI.BackColor = Color.Red;
                 }
                 else
                 {
