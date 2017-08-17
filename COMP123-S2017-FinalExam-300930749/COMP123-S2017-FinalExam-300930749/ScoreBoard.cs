@@ -22,5 +22,19 @@ namespace COMP123_S2017_FinalExam_300930749
         public TextBox TimeTextBox { get; set; }
 
 
+        public ScoreBoard(TextBox scoreTextBox, TextBox timeTextBox, TextBox finalScoreTextBox)
+        {
+            Score = Convert.ToInt32(ScoreTextBox.Text);
+            _score = Convert.ToInt32(finalScoreTextBox.Text);
+            Time = Convert.ToInt32(TimeTextBox.Text);
+
+        }
+
+        public void UpdateTime()
+        {
+
+        }
+
+
     }
 }
