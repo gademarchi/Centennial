@@ -24,7 +24,7 @@ namespace COMP123_S2017_FinalExam_300930749
         {
             get
             {
-                return Program.pickhighestcardForm;
+               return Program.pickhighestcardForm;
             }
 
         }

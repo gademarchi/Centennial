@@ -16,6 +16,8 @@ namespace COMP123_S2017_FinalExam_300930749
 {
     public static class Program
     {
+        public static PickHighestCardForm pickhighestcardForm { get; internal set; }
+
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
