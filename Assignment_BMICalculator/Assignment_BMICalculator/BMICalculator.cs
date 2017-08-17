@@ -65,7 +65,7 @@ namespace Assignment_BMICalculator
             txtBMI.Clear();
             txtResult.Text = " ";
             txtBMI.BackColor = Color.White;
-
+            txtResult.BackColor = Color.White;
         }
 
         string result;

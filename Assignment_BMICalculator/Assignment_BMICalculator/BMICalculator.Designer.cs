@@ -230,12 +230,15 @@
             // txtResult
             // 
             this.txtResult.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txtResult.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.txtResult.Font = new System.Drawing.Font("Lucida Sans Unicode", 20F);
             this.txtResult.Location = new System.Drawing.Point(157, 349);
             this.txtResult.Multiline = true;
             this.txtResult.Name = "txtResult";
+            this.txtResult.ReadOnly = true;
             this.txtResult.Size = new System.Drawing.Size(155, 99);
             this.txtResult.TabIndex = 12;
+            this.txtResult.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // BMICalculator
             // 
