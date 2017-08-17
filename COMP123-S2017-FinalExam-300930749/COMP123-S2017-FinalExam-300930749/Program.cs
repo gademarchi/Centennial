@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 /*
- * Name:
- * Date:
- * StudentID:
- * Description:
- * Version:
+ * Name: Gabriel De Marchi  
+ * Date: August 17,2017
+ * StudentID: 300930749
+ * Description: Program
+ * Version: 0.1 - Create Program
  */
 
 namespace COMP123_S2017_FinalExam_300930749
@@ -24,6 +24,9 @@ namespace COMP123_S2017_FinalExam_300930749
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+
+            pickhighestcardForm = new PickHighestCardForm();
+
             Application.Run(new PickHighestCardForm());
         }
     }
