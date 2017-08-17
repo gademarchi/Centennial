@@ -16,5 +16,10 @@ namespace COMP123_S2017_FinalExam_300930749
         {
             InitializeComponent();
         }
+
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+
+        }
     }
 }
