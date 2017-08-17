@@ -20,12 +20,12 @@ namespace COMP123_S2017_FinalExam_300930749
     public partial class SplashForm : Form
     {
         //PROPERTIES
-        public PickHighestCardForm PickHighestCardForm { 
+        public PickHighestCardForm PickHighestCardForm
+        {
             get
             {
-                return Program.pickHighestCarForm;
+                return Program.pickhighestcardForm;
             }
-        {
 
         }
         public SplashForm()
@@ -33,7 +33,8 @@ namespace COMP123_S2017_FinalExam_300930749
             InitializeComponent();
         }
 
-        private void Timer_Tick(object sender, EventArgs e)
+
+        private void SplashFormTimer_Tick(object sender, EventArgs e)
         {
             this.PickHighestCardForm.Show();
             this.Hide();
