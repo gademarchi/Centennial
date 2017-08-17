@@ -333,6 +333,11 @@
         private System.Windows.Forms.Button ExitButton;
         private System.Windows.Forms.TextBox FinalScoreTextBox;
         private System.Windows.Forms.Label FinalScoreLabel;
+
+
+        
+
+
     }
 }
 

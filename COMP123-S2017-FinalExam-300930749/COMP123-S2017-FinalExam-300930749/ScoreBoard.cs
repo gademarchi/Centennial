@@ -20,6 +20,7 @@ namespace COMP123_S2017_FinalExam_300930749
         public TextBox ScoreTextBox { get; set; }
         public int Time { get; set; }
         public TextBox TimeTextBox { get; set; }
+       
 
 
         public ScoreBoard(TextBox scoreTextBox, TextBox timeTextBox, TextBox finalScoreTextBox)
@@ -32,7 +33,8 @@ namespace COMP123_S2017_FinalExam_300930749
 
         public void UpdateTime()
         {
-
+            Time = Convert.ToInt32(TimeTextBox.Text) - 1;
+            Convert.ToString(Time);
         }
 
 
