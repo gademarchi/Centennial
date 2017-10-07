@@ -6,12 +6,21 @@
     <div>
         <asp:Image ID="Image1" runat="server" ImageUrl="~/images/book_panel.jpg" Width="380px"  ImageAlign="Middle"/><br />
         <br />
-        <asp:TextBox ID="txtTitle" placeholder="Enter the Book Title" runat="server"></asp:TextBox>
+        <asp:TextBox ID="txtTitle" placeholder="Enter the Book Title" runat="server"></asp:TextBox><br />
 
-        <asp:TextBox ID="txtAuthor" placeholder="Enter the Author's Name" runat="server"></asp:TextBox>
+        <asp:TextBox ID="txtAuthor" placeholder="Enter the Author's Name" runat="server"></asp:TextBox><br />
 
-        <asp:TextBox ID="txtPublisher" placeholder="Enter the Publisher" runat="server"></asp:TextBox>
+        <asp:TextBox ID="txtPublisher" placeholder="Enter the Publisher" runat="server"></asp:TextBox><br />
 
-        <asp:TextBox ID="txtISBN" placeholder="Enter the ISBN number" runat="server"></asp:TextBox>
+        <asp:TextBox ID="txtISBN" placeholder="Enter the ISBN number" runat="server"></asp:TextBox><br />
+
+        <asp:TextBox ID="txtEdition" placeholder="Enter the Edition" runat="server"></asp:TextBox><br />
+
+        <asp:Label ID="Label1" runat="server" Text="Published"></asp:Label>
+        <asp:Calendar ID="Calendar1" runat="server"></asp:Calendar><br />
+
+        <asp:TextBox ID="txtDescription" placeholder="Enter a Description"  TextMode="MultiLine" runat="server"></asp:TextBox><br />
+
+
     </div>
 </asp:Content>
