@@ -7,13 +7,10 @@
  
 
   <div class="container"  style="object-position" >
-    <label><b>E-mail: </b></label>
-    <input type="text" placeholder="Enter E-mail" name="uname" required><br />
-    <br />
-    <label><b>Password: </b></label>
+    <input type="text" placeholder="Enter E-mail" name="uname" required>&nbsp&nbsp
     <input type="password" placeholder="Enter Password" name="psw" required><br />
     <br />
-    <button type="submit">Login</button>
+    <button type="submit">Login</button> &nbsp&nbsp
     <input type="checkbox" checked="checked"> Remember me
   </div>
 
